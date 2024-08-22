@@ -12,7 +12,7 @@ public class echantillon_DNA : MonoBehaviour
     public string targetTag = "dna_sequencer";
     public Text dnaGeneFamily;
     private float delay = 5f;
-    private string baseUrl = "http://172.20.10.3:5000/predict";
+    private string baseUrl = "";
     private string dnaSequence;
 
     private void Start()

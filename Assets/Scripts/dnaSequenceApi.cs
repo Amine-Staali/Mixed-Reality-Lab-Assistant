@@ -16,7 +16,7 @@ public class dnaSequenceApi : MonoBehaviour
     public Text dnaGeneFamily;
     public Button buttonGetADNSequence;
     private float delay = 5f;
-    private string baseUrl = "http://172.20.10.3:5000/predict";
+    private string baseUrl = "";
 
     private void Start()
     {

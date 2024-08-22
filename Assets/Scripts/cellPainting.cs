@@ -5,16 +5,16 @@ using UnityEngine.UI;
 public class cellPainting : MonoBehaviour
 {
     public string targetTag = "microscope";
-    public RawImage cell;      // First image object
-    public RawImage newCell;   // Second image object
-    private float delay = 2f;  // Delay between showing the images
-    private bool firstCollision = true;  // Tracks if this is the first collision
+    public RawImage cell;
+    public RawImage newCell;
+    private float delay = 2f;
+    private bool firstCollision = true;
 
     private void Start()
     {
         Debug.Log("Start method called!");
-        cell.gameObject.SetActive(false);    // Hide the first image at the start
-        newCell.gameObject.SetActive(false); // Hide the second image at the start
+        cell.gameObject.SetActive(false);
+        newCell.gameObject.SetActive(false);
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -44,13 +44,13 @@ public class cellPainting : MonoBehaviour
     {
         if (firstCollision)
         {
-            cell.gameObject.SetActive(true); // Show the first image on the first collision
+            cell.gameObject.SetActive(true);
             firstCollision = false;
         }
         else
         {
-            cell.gameObject.SetActive(false); // Hide the first image
-            newCell.gameObject.SetActive(true); // Show the second image on the second collision
+            cell.gameObject.SetActive(false);
+            newCell.gameObject.SetActive(true);
         }
     }
 }
