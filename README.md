@@ -17,6 +17,6 @@ LabMentor is an intelligent assistant for labs, using HoloLens and AI to virtual
 
 ## Contribution
 
-Contributions are welcome! Don't hesitate to contact me.
+Contributions are welcome! Don't hesitate to contact me for collaboration or suggestions.
 
 
