@@ -1,10 +1,6 @@
 # Mixed-Reality-Lab-Assistant
 LabMentor is an intelligent assistant for labs, using HoloLens and AI to virtualize experiments and provide real-time guidance. It offers automated procedure verification, error signaling, and comprehensive information, enhancing research efficiency and accuracy, particularly in resource-limited labs.
 
-## LabMentor
-
-**LabMentor** is a cutting-edge intelligent assistant designed to transform laboratory research, especially in resource-limited environments. Utilizing HoloLens and advanced AI technologies, LabMentor provides comprehensive support throughout the research process.
-
 ## Key Features
 
 - **Mixed Reality Integration**: Leverages HoloLens to virtualize experiments, offering immersive and interactive guidance.
